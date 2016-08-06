@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="4.0dip" android:insetRight="4.0dip" android:insetTop="4.0dip" android:insetBottom="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list android:paddingMode="stack">
+        <item>
+            <ripple android:color="?colorControlHighlight">
+                <item>
+                    <nine-patch android:src="@drawable/btn_toggle_mtrl_alpha" android:tint="?colorButtonNormal" />
+                </item>
+            </ripple>
+        </item>
+        <item>
+            <selector
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <item android:state_checked="false">
+                    <nine-patch android:src="@drawable/btn_toggle_indicator_mtrl_alpha" android:tint="?colorControlNormal" />
+                </item>
+                <item android:state_checked="true">
+                    <nine-patch android:src="@drawable/btn_toggle_indicator_mtrl_alpha" android:tint="?colorControlActivated" />
+                </item>
+            </selector>
+        </item>
+    </layer-list>
+</inset>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="400.0dip" android:width="400.0dip" />
+    <viewport android:viewportWidth="25.0" android:viewportHeight="25.0" />
+    <path android:name="torso" android:fill="#ffffffff" android:pathData="m2,2 l21,0 l0,21 l-21,0 z" />
+    <path android:name="|" android:fill="#ff0000ff" android:pathData="m4,4 l8,0 l0,17 l-8,0 z" />
+    <path android:name="_" android:fill="#ffff0000" android:pathData="m5,14 l16,0 l0,6 l-16,0 z" />
+</vector>

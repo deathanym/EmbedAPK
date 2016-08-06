@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="interpolator" name="l_resource_pad4">padding</item>
+    <item type="interpolator" name="l_resource_pad3">padding</item>
+    <item type="interpolator" name="l_resource_pad2">padding</item>
+    <item type="interpolator" name="l_resource_pad1">padding</item>
+</resources>

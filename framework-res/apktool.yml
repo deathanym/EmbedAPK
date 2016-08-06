@@ -1,0 +1,19 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: framework-res.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: true
+packageInfo:
+  forcedPackageId: '1'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: L
+  targetSdkVersion: L
+sharedLibrary: false
+unknownFiles: {}
+usesFramework: null
+version: 2.1.1
+versionInfo:
+  versionCode: '20'
+  versionName: L-1236599

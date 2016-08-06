@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/timepicker_header_height" layout="@layout/time_header_label" />
+    <android.widget.RadialTimePickerView android:layout_gravity="center" android:id="@id/radial_picker" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="@dimen/timepicker_radial_picker_dimen" />
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?dividerHorizontal" android:showDividers="beginning" style="?android:attr/buttonBarStyle">
+        <Button android:textSize="@dimen/timepicker_done_label_size" android:id="@id/done_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/done_label" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>
